@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<def_error>
+	<txStatus tx_status="NEWR" statEN_desc="New record" VN_display_name="Đăng ký mới" EN_display_name="New" />
+	<txStatus tx_status="PTCK" statEN_desc="Pending to check" VN_display_name="Chờ kiểm tra" EN_display_name="Pending to check" />
+	<txStatus tx_status="CKNG" statEN_desc="Checking" VN_display_name="Chờ duyệt" EN_display_name="Pending" />
+	<txStatus tx_status="CKPS" statEN_desc="Pass Checking" VN_display_name="Thiết lập thành công" EN_display_name="Scheduled successfully" />
+	<txStatus tx_status="PRGS" statEN_desc="Progessing" VN_display_name="Giao dịch đang xử lý" EN_display_name="Transaction progessing" />
+	<txStatus tx_status="CKRJ" statEN_desc="Did not pass Checking" VN_display_name="Đã từ chối" EN_display_name="Rejected" />
+	<txStatus tx_status="CANC" statEN_desc="Cancel" VN_display_name="Đã bị huỷ" EN_display_name="Cancel" />
+	<txStatus tx_status="CKTM" statEN_desc="Checking timeout" VN_display_name="Hết hạn" EN_display_name="Expired" />
+	<txStatus tx_status="SCWG" statEN_desc="Scheduling" VN_display_name="Định kỳ" EN_display_name="Scheduling" />
+	<txStatus tx_status="SCFH" statEN_desc="Schedule finished" VN_display_name="Hết hiệu lực" EN_display_name="Schedule finished" />
+	<txStatus tx_status="PTSM" statEN_desc="Pending to submit" VN_display_name="Chờ xử lý"
+			  EN_display_name="Pending" />
+	<txStatus tx_status="SMNG" statEN_desc="Submitting" VN_display_name="Đang xử lý" EN_display_name="Processing" />
+	<txStatus tx_status="SMSU" statEN_desc="Submitted" VN_display_name="Đã gửi thành công" EN_display_name="Submitted" />
+	<txStatus tx_status="SMFL" statEN_desc="Submit failure" VN_display_name="Gửi không thành công" EN_display_name="Failure" />
+	<txStatus tx_status="SMNR" statEN_desc="No response" VN_display_name="Lỗi" EN_display_name="Error" />
+	<txStatus tx_status="SMTM" statEN_desc="Submit timeout" VN_display_name="Giao dịch đã hết hạn" EN_display_name="Failure" />
+	<txStatus tx_status="SUCC" statEN_desc="Successful" VN_display_name="Đã duyệt" EN_display_name="Approved" />
+	<txStatus tx_status="FAIL" statEN_desc="Failure" VN_display_name="Không thành công" EN_display_name="Failed" />
+	<txStatus tx_status="SPSU" statEN_desc="Some transactions were processed successfully" VN_display_name="Một phần giao dịch đã được thực hiện thành công" EN_display_name="Some transactions were processed successfully" />
+	<txStatus tx_status="DLTD" statEN_desc="delete status" VN_display_name="Đã huỷ" EN_display_name="Cancelled" />
+	<txStatus tx_status="OTPE" statEN_desc="One time password error" VN_display_name="Sai OTP" EN_display_name="OTP is not correct." />
+	<txStatus tx_status="CAE" statEN_desc="Certificate Authority error" VN_display_name="Không thành công." EN_display_name="Certificate Authority is not correct" />
+	<txStatus tx_status="NPAC" statEN_desc="Lỗi Tài khoản người dùng" VN_display_name="Tài khoản nguồn không chính xác" EN_display_name="Account authorization error" />
+	<txStatus tx_status="NCAC" statEN_desc="Lỗi Tài khoản người dùng" VN_display_name="khong co checker co quyen kiem tra so tai khoan chuyen nay" EN_display_name="No Checker has RollOutAccount authorization" />
+	<txStatus tx_status="INAS" statEN_desc="Account status is not active" VN_display_name="Trạng thái tài khoản không hoạt động" EN_display_name="Account status is not active" />
+	<txStatus tx_status="OPTL" statEN_desc="Transaction amount exceeds per time max trade amount" VN_display_name="Vi phạm hạn mức" EN_display_name="Limit Error" />
+	<txStatus tx_status="UPTL" statEN_desc="Transaction amount under per time min trade amount" VN_display_name="Vi phạm hạn mức." EN_display_name="Limit Error" />
+	<txStatus tx_status="OPDL" statEN_desc="Transaction amount exceeds per day max trade amount" VN_display_name="Vi phạm hạn mức" EN_display_name="Limit Error" />
+	<txStatus tx_status="FCHG" statEN_desc="Transaction fee is changed" VN_display_name="Phí giao dịch đã được thay đổi" EN_display_name="Transaction fee is changed" />
+	<txStatus tx_status="ODTL" statEN_desc="Transaction amount exceeds daily max trade amount" VN_display_name="Vi phạm hạn mức"
+			  EN_display_name="Vi phạm hạn mức" />
+	<txStatus tx_status="TSDR" statEN_desc="Transaction is successful! please dont't refresh" VN_display_name="Giao dịch đã thành công. Vui lòng không làm mới lại trang." EN_display_name="Transaction is successful! please dont't refresh" />
+	<txStatus tx_status="CKNT" statEN_desc="Task does not exist or have been checked already" VN_display_name="Giao dịch không tồn tại hoặc đã xử lý" EN_display_name="Task does not exist or have been checked already" />
+	<txStatus tx_status="WMND" statEN_desc="you do not have permissions,so don.t Display" VN_display_name="Quý khách không có quyền xem chức năng này." EN_display_name="you do not have permissions,so don.t Display" />
+	<txStatus tx_status="WUECN" statEN_desc="ERROR CONNECTION TO GATEWAY" VN_display_name="Hệ thống bị gián đoạn, xin vui lòng thử lại sau!" EN_display_name="The system is busy, please try again!" />
+	<txStatus tx_status="REJE" statEN_desc="MSB reject" VN_display_name="MSB từ chối" EN_display_name="MSB reject" />
+	<txStatus tx_status="PEND" statEN_desc="Chờ MSB xử lý" VN_display_name="Chờ MSB xử lý" EN_display_name="Pending to submit MSB" />
+	<txStatus tx_status="REVIE" statEN_desc="MSB đang xử lý" VN_display_name="MSB đang xử lý" EN_display_name="MSB processing" />
+</def_error>
